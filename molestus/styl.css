@@ -1,0 +1,294 @@
+
+body{
+    margin: 0;
+    background-color: rgb(155, 162, 159);
+}
+
+.first_buttons{
+    font-size: 1.2em;
+    margin: 1em 0 .5em 1em;
+    float: left;
+}
+
+.first_buttons:hover{
+    background-color: lightpink;
+}
+
+header{
+    margin: 2em auto;
+    width: 90%;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    clear: both;
+}
+
+#about_page{
+    font-size: 1.5em;
+}
+
+#source{
+    width: 30%;
+    height: 3em;
+    text-align: left;
+    background-color: aliceblue;
+    border: 2px solid black;
+    float: left;
+    box-shadow: 0 0 10px #232323;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+#p1{
+    padding: .5em;
+    height: 60%;
+    font-size: 1.2em;
+    background-color: rgb(255, 255, 0);
+    width: 2em;
+    margin-top: -.12em;
+    margin-left: -.1em;
+    border: 2px solid black;
+}
+
+.move_right{
+    margin-left: 1em;
+    margin-top: .6em;
+    font-size: 1.1em;
+}
+
+.move_right:nth-of-type(odd){
+    background-color: rgb(211, 212, 214);
+}
+
+h1{
+    text-align: center;
+}
+
+#action{
+    width: 60%;
+    height: 3em;
+    background-color: aliceblue;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 10px #232323;
+}
+
+.select_action_button{
+    font-size: 1em;
+}
+
+.select_action_button:hover{
+    background-color: rgb(255, 255, 0);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#databases_bar{
+    width: 15%;
+    height: 40em;
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding: 1em;
+    box-shadow: 0 0 10px #232323;
+    overflow: auto;
+}
+
+#databases_bar > p{
+    width: 97%;
+    max-height: 2.5em;
+    background-color: rgb(255, 255, 0);
+    border: 2px solid black;
+    text-align: center;
+    padding: .2em 0;
+    font-weight: bold;
+    font-size: 1em;
+    margin: auto;
+}
+
+#tables_bar{
+    width: 15%;
+    height: 40em;
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding: 1em;
+    box-shadow: 0 0 10px #232323;
+    overflow: auto;
+}
+
+#tables_bar > p{
+    width: 97%;
+    max-height: 2em;
+    background-color: rgb(255, 255, 0);
+    border: 2px solid black;
+    text-align: center;
+    padding: .2em 0;
+    font-weight: bold;
+    font-size: 1em;
+    margin: auto;
+}
+
+#main_bar{
+    width: 60%;
+    height: 46em;
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding: 1em;
+    box-shadow: 0 0 10px #232323;
+    overflow: auto;
+}
+
+#logo_main{
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login_field{
+    height: 17em;
+    width: 50em;
+    border: 2px solid black;
+    border-radius: 1em;
+    box-shadow: 0 0 10px #232323;
+    margin: auto;
+    margin-top: 20em;
+    background-color: rgb(110, 113, 111);
+}
+
+#login_field h1{
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+}
+
+#login_field img{
+    width: 7em;
+    margin: 1em 7em 1em 5em;
+    float: left;
+}
+
+#login_form{
+    margin-top: 1.5em;
+    margin-right: 8em;
+    text-align: right;
+}
+
+#login_form label{
+    font-size: 1.25em;
+    color: aliceblue;
+}
+
+#login_form #login_from_submit{
+    width: 13.25em;
+    height: 2.5em;
+    background-color: rgb(255, 255, 0);
+}
+
+#login_error{
+    color: rgb(161, 14, 14);
+}
+
+.invisible{
+    display: none;
+    border: none;
+    background-color: none;
+}
+
+.table_button:hover{
+    background-color: rgb(255, 255, 0);
+}
+
+.alert{
+    border: 2px solid red;
+    background-color: rgb(237, 78, 78);
+    border-radius: 3%;
+    margin: .5em;
+    padding: .5em;
+}
+
+.select_db_button, .select_tb_button{
+    width: 100%;
+    font-size: 1em;
+}
+
+.data_table{
+    margin-left: 2em;
+    border-collapse: collapse;
+}
+
+.data_table tr{
+    border-bottom: 1px solid rgb(132, 133, 135);
+}
+
+.data_table tr:nth-of-type(2n){
+    background-color: rgb(211, 212, 214);
+}
+
+.data_table td, .data_table th{
+    font-size: 1.2em;
+    padding: .2em;
+    border: 1px solid rgb(132, 133, 135);
+}
+
+td .input_in_table{
+    background-color: rgba(255, 252, 252, 0);
+    border: none;
+    width: 95%;
+    height: 100%;
+    margin: 0;
+}
+
+.display_flex form{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.display_flex{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#sql_code{
+    font-size: 1.2em;
+    height: 13em;
+}
+
+.sql_code{
+    display: block;
+    height: 24em;
+    width: 99%;
+    font-size: .90em;
+    border: 1px solid black;
+    overflow: auto;
+    padding: .5em;
+}
+
+.sql_code .div_left{
+    margin-left: 0;
+    width: 70%;
+    clear: both;
+}
+
+.sql_code .div_right{
+    display: block;
+    margin-right: 0;
+    width: 70%;
+    float: right;
+}
+
+.sql_code .div_right .data_table{
+    margin-right: 0;
+}
